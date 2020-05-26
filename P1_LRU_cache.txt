@@ -1,0 +1,19 @@
+
+I used double linked list as the data structure to implement the LRU cache.
+
+Double linked list has a linear time complexity O(n) whereas dictionary has a constant time complexity O(1). I
+integrated dictionary to improve efficiency.
+
+set method: given a key-value pair as input, a node is created at the end of the doubly linked
+list and the key in the dictionary points to the created node. (constant time)
+
+get method given a key-value pair as input, the value is retrieved from the node in the doubly
+linked list and this node is appended to the doubly linked list. (constant time)
+
+Time complexity
+O(1)
+set and get functions have a constant time
+
+Space complexity
+linear O(n)
+n is the size of the cache

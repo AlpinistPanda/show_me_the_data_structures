@@ -1,0 +1,18 @@
+I used a tree with a dictionart to store the characters and their apperance.
+
+I need a sorting method and I achieved it with a use of an array containing the keys
+which was then sorted.
+
+The tree enabled the derivation of the codes for each distinct letter and the letters and 
+codes are also stored as a key value pair in a dictionary for easy access.
+
+Time complexity
+superlinear O(n * nlogn)
+the create_tree() is recursive
+use of sorted function for each call makes it this way
+
+
+Space complexity
+linear O(n)
+n is the input size because
+array is proportional to the size

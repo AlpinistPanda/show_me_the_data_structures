@@ -1,0 +1,16 @@
+I used recursion to travers a directory and its subdirectories to find files with suffix.
+
+
+Time complexity
+quadratic O(n * m)
+n is the number of files in the current directory
+m is the number of folders
+
+Space complexity
+O(n * m)
+n is the depth of recursion
+m is the space each recursive call function occupies.
+
+result list O(n) but it is neglected
+
+

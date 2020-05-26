@@ -1,0 +1,29 @@
+UNION
+
+I am using sets to store the unique nodes from a linkedlist
+Then I create a union linkedlist if that is empty there is no union
+
+
+Time complexity
+linear O(n)
+because we search through each node from 1 to n
+
+Space complexity
+linear O(n)
+scale of the dataset grows as the size of the input increases
+
+
+INTERSECTION
+
+I am using sets to store unique nodes
+I intersect the two sets and if there is no intersection the solution is empty
+
+
+Time complexity
+O(n)
+because we search through each node from 1 to n
+
+
+Space complexity
+linear O(n)
+

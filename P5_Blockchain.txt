@@ -1,0 +1,15 @@
+
+I am using a linkedlist for blockchain. There is an append function to add a new block chain.
+
+
+Time complexity
+linear O(n)
+
+because we search through each node from 1 to n
+
+
+Space complexity
+O(n)
+
+n is the input size
+the size of the block storage scales proportionally to the size of the input.

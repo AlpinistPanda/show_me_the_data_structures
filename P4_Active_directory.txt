@@ -1,0 +1,15 @@
+I used recursion to search all groups present in a group to find a user.
+
+Time complexity
+quadratic O(n * m)
+n is the number of users
+m is the number of subgroups
+
+Space complexity
+quadratic O(n * m)
+n is the depth of recursion
+m is the space each recursive call function occupies
+
+There is also linear component coming from list search however they are negligble as the most dominant term comes from
+recursion
+
